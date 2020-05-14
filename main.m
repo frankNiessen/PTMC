@@ -18,9 +18,14 @@
 % A license file is provided in the root directory of the program
 % ------------------------------------------------------------------------- 
 %% Startup
-clc; clear all; close all; clear hidden; fclose('all');
+clc; clear vars; close all; clear hidden; fclose('all');
 scrPrnt('StartUp','PTMC analysis');
-try MTEXmenu; catch; startup_mtex; end                                     % Startup m-tex
+try 
+    startup_mtex % Startup m-tex
+catch ME
+    warning('You may not have MTEX properly installed');
+    rethrow(ME);
+end                                     
 %% Defining crystal structures
 scrPrnt('SegmentStart','Initialization');
 % Load parent crystal structure
