@@ -18,7 +18,8 @@
 % A license file is provided in the root directory of the program
 % ------------------------------------------------------------------------- 
 %% Startup
-clc; clear vars; close all; clear hidden; fclose('all');
+home; close all; clear variables;
+currentFolder;
 scrPrnt('StartUp','PTMC analysis');
 try 
     startup_mtex % Startup m-tex
