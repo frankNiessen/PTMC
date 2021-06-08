@@ -18,8 +18,8 @@ SPa = SPa';
 SPa = SPa/norm(SPa);                                                       %Normaloze LIS plane
 if ~isa(SDa,'char'); SDa = SDa/norm(SDa); end                              %Normalize LIS direction
 %Calculate Lattice transformation and Bain matrix
-bTa = calc_bTa(CSa.lattice,CSb.lattice,abc_a,abc_b,bCa,varargin{:});       %Compute Lattice transformation matrix
-M = calcM(CSa.LaueName,CSb.lattice,abc_a,abc_b,bCa,bTa,varargin{:});       %Compute Bain-Strain matrix
+bTa = calc_bTa(CSa.pointGroup,CSb.pointGroup,abc_a,abc_b,bCa,varargin{:});       %Compute Lattice transformation matrix
+M = calcM(CSa.pointGroup,CSb.pointGroup,abc_a,abc_b,bCa,bTa,varargin{:});       %Compute Bain-Strain matrix
 %% Twinning direction of lattice invariant shear
 if isa(SDa,'char') && strcmpi(SDa,'twinning')
    SDa = calcTwinD(SPa,M.A,varargin{:});
