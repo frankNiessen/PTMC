@@ -12,11 +12,9 @@ The results can be reproduced by following few simple steps:
 - Choose "Fe-alphaP_Bhadeshia_1991.cif" as the input structure for the daughter phase
 - Use the default lattice correspondance matrix $bCa$:
 
-1 -1  0
-
+`1 -1  0
 1  1  0
-
-0  0  1
+0  0  1`
 
 - Choose *Dislocation slip LIS* as the lattice invariant shear mechanism
 - Set the *LIS plane* to *1 0 1* and the *LIS direction* to *1 0 -1*
