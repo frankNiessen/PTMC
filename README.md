@@ -12,16 +12,16 @@ The results can be reproduced by following few simple steps:
 - Choose "Fe-alphaP_Bhadeshia_1991.cif" as the input structure for the daughter phase
 - Use the default lattice correspondance matrix $bCa$:
 
-$\begin{equation*}
-  A_{m,n} = 
-  \begin{pmatrix}
-  a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
-  a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
-  \vdots  & \vdots  & \ddots & \vdots  \\
-  a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
-  \end{pmatrix}
-\end{equation*}$
-
+$$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+\left(\begin{array}{cc} 
+10 & 0\\ 
+0 & 5
+\end{array}\right)
+$$ 
 
 `1 -1  0
 
