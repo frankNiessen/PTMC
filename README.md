@@ -13,7 +13,9 @@ The results can be reproduced by following few simple steps:
 - Use the default lattice correspondance matrix $bCa$:
 
 `1 -1  0
+
 1  1  0
+
 0  0  1`
 
 - Choose *Dislocation slip LIS* as the lattice invariant shear mechanism
