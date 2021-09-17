@@ -23,7 +23,7 @@ The results can be reproduced by following few simple steps:
 - Retrieve the results in the command window and compare with the results in Bhadeshia's monograph
 
 ## Example 2
-This example covers the case of the *fcc* to *orthorhombic* martensitic transformation in Ti-alloys that was covered by Chai et al. [Chai, Y. W., Kim, H. Y., Hosoda, H. & Miyazaki, S. (2009). Acta Mater. 57, 4054–4064.](http://dx.doi.org/10.1016/j.actamat.2009.04.051) in Table 2.
+This example covers the case of the *fcc* to *orthorhombic* martensitic transformation in a Ti - 20at.% Nb shape memory alloy that was covered by Chai et al. [Chai, Y. W., Kim, H. Y., Hosoda, H. & Miyazaki, S. (2009). Acta Mater. 57, 4054–4064](http://dx.doi.org/10.1016/j.actamat.2009.04.051) in Table 2.
 
 The results can be reproduced by following few simple steps:
 - Run the main file
