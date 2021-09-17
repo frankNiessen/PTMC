@@ -15,10 +15,10 @@ _publ_section_title
  Body centered cubic, bcc, structure
 ;
 _database_code_amcsd 0011232
-_chemical_formula_sum 'TiBeta - Davis - 1979'
-_cell_length_a 3.272
-_cell_length_b 3.272
-_cell_length_c 3.272
+_chemical_formula_sum 'TiBeta - Chai - 2009'
+_cell_length_a 3.28505
+_cell_length_b 3.28505
+_cell_length_c 3.28505
 _cell_angle_alpha 90
 _cell_angle_beta 90
 _cell_angle_gamma 90

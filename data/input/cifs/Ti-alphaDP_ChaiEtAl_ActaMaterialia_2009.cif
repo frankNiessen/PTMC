@@ -26,7 +26,7 @@ _journal_page_first              831
 _journal_page_last               842
 _journal_volume                  70
 _journal_year                    1973
-_chemical_formula_sum            'TiAlphaDP - Davis Ti-8Mo - 1979'
+_chemical_formula_sum            'TiAlphaDP - Chai - 2009'
 _chemical_name_systematic        '(Nb0.3 Ti0.7)'
 _space_group_IT_number           63
 _symmetry_space_group_name_Hall  '-C 2c 2'
@@ -35,9 +35,9 @@ _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
 _cell_formula_units_Z            4
-_cell_length_a                   2.994
-_cell_length_b                   4.99
-_cell_length_c                   4.644
+_cell_length_a                   3.1257
+_cell_length_b                   4.8704
+_cell_length_c                   4.6456
 _cell_volume                     67.167
 _citation_journal_id_ASTM        MRMTAU
 _cod_data_source_file            Morniroli_MRMTAU_1973_1414.cif
