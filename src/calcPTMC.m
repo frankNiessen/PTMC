@@ -8,8 +8,8 @@ for d2 = 1:2 %Solutions for invariant line
         k = k+1;                                                           %Increase counter
         l = M^(-1)*IN(:,d2); l = l/norm(l);
         x = M*IL(:,d1); x = x/norm(x);
-        a = vrrotvec(IL(:,d1),IN(:,d2)); a = a(1:3)';  
-        b = vrrotvec(x,l); b = b(1:3)'; 
+        a = cross(IL(:,d1),IN(:,d2))/norm(cross(IL(:,d1),IN(:,d2)));
+        b = cross(x,l)/norm(cross(x,l)); 
         PJP(:,:,k) = [IL(:,d1),IN(:,d2),a]/[x,l,b];                    %Rotation matrix
         % ***********************  Invariant line strain (PSP)
         PSP(:,:,k) = PJP(:,:,k)*M;                                                %Invariant line strain (PSP)       
