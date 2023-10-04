@@ -1,7 +1,7 @@
 function basis = basis(CS,abc,varargin)
 %Return basis of crystal structure CS
 switch lower(CS)
-    case {'bcc','fcc','m-3m','cubic','tetragonal'}
+    case {'bcc','fcc','m-3m','cubic','tetragonal','4/mmm'}
         basis = [1 0 0; 0 1 0; 0 0 1];
     case {'orthorhombic','mmm'}
         basis = [1 0 0; 0 1 0; 0 0 1];    
