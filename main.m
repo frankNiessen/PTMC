@@ -30,12 +30,14 @@ end
 %% Defining crystal structures
 scrPrnt('SegmentStart','Initialization');
 % Load parent crystal structure
+if ~ispc; f = msgbox("Define parent crystal structure"); uiwait(f); end
 cif.A = uigetfile('*.cif','Define parent crystal structure',...
-                  [fileparts(mfilename('fullpath')),'\data\input\cifs\']);
+                  [fileparts(mfilename('fullpath')),'/data/input/cifs/.']);
 CS.A = loadCIF(cif.A);
 % Load daughter crystal structure
+if ~ispc; f = msgbox("Define daughter crystal structure"); uiwait(f); end
 cif.B = uigetfile('*.cif','Define daughter crystal structure',...
-                  [fileparts(mfilename('fullpath')),'\data\input\cifs\']);
+                  [fileparts(mfilename('fullpath')),'/data/input/cifs/.']);
 CS.B = loadCIF(cif.B);
 %% Defining lattice correspondance
 bCaIni = def_bCa(CS);
